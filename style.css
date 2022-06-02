@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Koulen', cursive;
+}
+
+body{
+	/*background-color:black;*/
+	/*background-image: url("img/bg.jpg");
+	background-attachment: scroll;
+	/*background-repeat:repeat;*/
+	color:white;
+	position: relative;
+	min-height: 100vh;
+}
+
+
+.bodyLogin{
+	
+	background-blend-mode: color;
+	background: rgba(5, 5, 5, 0.7) url("img/back.jpg");
+	background-size:cover ;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bodyIndex{
+	background-blend-mode: color;
+	background: rgba(5, 5, 5, 0.7) url("img/back.jpg");
+	background-size:cover ;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.mainLogin{
+	padding: 20px;
+	margin:auto;
+	margin-top: 100px;
+	margin-bottom: 1000px;
+}
+
+.mainGeneral{
+	color:white;
+	margin-bottom: 10px;
+	margin-top: 250px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-bottom:300px;
+	}
+
+.mainTitle{
+	color:white;
+	text-align: center;
+	padding-bottom: 50PX;
+}
+
+.headerRight {
+	width: 50%;
+    position: relative;
+    text-align:right;
+    padding-right: 100px;
+
+}
+
+.headerRight a{
+	font-size: 30px ;
+}
+
+.headerLeft{;
+    position: relative;
+    width: 50%;
+    padding-left: 100px;
+ }   
+
+.headerLeft a{
+	font-size: 30px;
+	margin-right:30px;
+}
+
+.Logo{
+	width: 650px;
+	height: 250px;
+    margin:0;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    right: 0;
+    
+}
+.Logo img{
+	  width: 100%;
+ 	  height: auto;
+ 	  margin-top: 10px;
+}
+img{
+display: block;
+ margin: 0px auto;
+}
+
+#login{
+	float:right;
+	color:red;
+	margin:0px auto;
+}
+a{ 
+	text-decoration: none;
+	color:white;
+}
+table,td,th{
+	text-align: center;
+	margin:auto;
+	border-style: outset;
+	border-color: grey;
+}
+
+header {
+	display: flex;
+}
+
+footer{
+	
+	margin:auto;
+	bottom: 0;
+  	width: 100%;
+ 	height: 40px;
+ 	position: absolute;
+ 	display: flex;
+}
+.footerLeft i {
+	padding-right:50px;
+	
+}
+.footerLeft {
+	padding-left: 20px;
+	width: 50%;
+}
+.footerRight {
+	width: 50%;
+    position: relative;
+    text-align:right;
+    margin-right: 30px; 
+}
+
+form{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+a:hover{
+	color:red;
+}
+a:visited{
+	color:white;
+}
+
+.discos{
+ 	height: 400px;
+  	width: 1000px;
+	margin: auto;
+	/*border: 5px solid red;*/
+	display: flex;
+}
+.diskImg{
+	/*border: 5px solid blue;*/
+	width: 50%;
+	margin-bottom: 100px;
+	margin-top: 0px;
+	margin-left: 200px;
+	margin-right: 0PX;
+}
+.diskTitle{
+	text-align: center;
+}
+.diskImg img{
+	
+  	border-radius: 10px;
+  	border-style: double;
+  	border-color: grey;
+  	height: 200px;
+  	width: 200px;
+}
+.songList
+{	
+	column-count:2;
+	margin-left: 0px;
+	padding-top: 10PX;
+	height: 400px;
+	width: 50%;
+	/*border: 5px solid green;*/
+}
+.songList ol
+{
+	height: 650px;
+	/*border: 5px solid white;*/
+	margin-left: 20px;
+}
+
+.videos{
+	margin-left: 80px;
+}
+
+.imgIngresar{
+	visibility: hidden;
+}
+.contenedorTodo{
+	width:100%;
+	max-width: 800px; 
+	margin:auto;
+	position: relative;
+	visibility: visible;
+}
+
+.cajatrasera{
+	width:100%;
+	padding: 10px 20px; 
+	display: flex;
+	justify-content: center;
+	backdrop-filter: blur(500px);
+	background-color: rgb(176,176,176,0.5);
+}
+
+.cajatrasera div{
+	margin:100px 40px;
+	color: white;
+	transition: all 500ms;
+}
+
+.cajatrasera div p,
+.cajatrasera div button{
+	margin-top: 30px; 
+}
+
+.cajatrasera div h3{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.cajatrasera button{
+	padding: 10px 40px;
+	border: 2px solid white;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 600;
+	cursor:pointer;
+	color:white;
+	outline: none;
+	transition: all 300ms;
+}
+
+.cajatrasera button:hover{
+	background:white;
+	color:grey;
+}
+
+.loginRegistro{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 380px;
+	position: relative;
+	top: -185px;
+	left: 10px;
+
+	transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.loginRegistro form{
+	width:100%;
+	padding: 80px 20px;
+	background:white;
+	position: absolute;
+	border-radius: 20px;
+}
+
+.loginRegistro form h2{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	color:rgb(96,96,96,0.5);
+}
+
+.loginRegistro form input{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	background: #f2f2f2;
+	font-size: 16px;
+	outline:none;
+}
+
+.loginRegistro form button{
+	padding:10px 40px;
+	margin-top: 40px;
+	border:none;
+	font-size: 14px;
+	background:#606060;
+	color:black;
+	cursor:pointer;
+	outline: none;
+}
+.formularioLogin {
+	opacity: 1;
+	display: block;
+}
+
+.formularioRegistro{
+	display: none;
+}
+
+/*Responsive Desing*/
+
+@media screen and (max-width:850px){
+	main{
+		margin-top: 50px;
+	}
+	.cajatrasera{
+		max-width: 350px;
+		height: 300px;
+		flex-direction: column;
+		margin:auto;
+	}
+
+	.cajatrasera div{
+		margin:0px;
+		position: absolute;
+	}
+
+	.loginRegistro {
+		top:-10px;
+		left:  -5px;
+		margin:auto;
+
+	}
+
+	.loginRegistro form{
+		position:relative;
+	}
+}

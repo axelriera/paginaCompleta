@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+	<title>FORM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bodyIndex">
+	
+	<header>
+		<div class="headerLeft">
+			<a href="media.html"> MEDIA</a> 
+			<a href="disk.html"> DISCOS</a> 
+			<a href="members.html"> MIEMBROS</a>
+			<a href="historia.html"> HISTORIA</a>
+		</div>
+		<h1 class="Logo"> 
+			<a href="index.html"> <img src="img\logo.png" width="500" height="150"></a>
+		</h1>
+
+		<div class="headerRight">
+			<a href="log in.html"> Log In</a> 
+		</div>
+		
+	</header>
+
+
+	<main>
+		<form> 
+			Nombre: <input type="text" name="nombre" autocomplete="name" required>
+			<br>
+			Apellido: <input type="text" name="apellido" required="" autocomplete="lastname">
+			<br>
+			Mail <input type="email" name="mail" placeholder="micorreo@gmail.com" autocomplete="email" required>
+			<br>
+			Femenino <input type="radio" value="sexo">
+			<br>
+			Masculino <input type="radio" value="sexo">
+			<br>
+			Fecha de nac. <input type="date" name="fecha">
+			<br>
+			Pais 
+			<select id="pais" name="pais">
+				<option value="arg">Argentina</option>
+				<option value="bra">Brasil</option>
+				<option value="chi">Chile</option>
+				<option value="per">Peru</option>
+				<option value="uru">Uruguay</option>
+			</select> 
+			<br>
+			<br>
+			<br>
+			Mejor Album <br>
+			<select id="voto" name="voto">
+				<option value="master">Master of pupptes</option>
+				<option value="black">Black Album</option>
+				<option value="anger">St.Anger</option>
+			</select>	
+			<br>
+			<br>
+			<br>
+
+			<input type="submit" name="Votar">
+		</form>
+	</main>
+	<footer>
+ 			<h2 aling="right">PAGINA REALIZADA POR AXEL RIERA </h2> 
+	</footer>
+</body>
+</html>
